@@ -3,7 +3,7 @@ services:
   web:
     image: feelingfree/rpi-alpine-node:4.4.5
     volumes:
-      - "/home/pirate/project/:/app"
+      - "/loca/work-directory/:/app"
     working_dir: /app
     restart: always
     expose:
